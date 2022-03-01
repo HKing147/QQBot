@@ -13,7 +13,7 @@ nonebot2 = "^2.0.0-beta.1"
 nb-cli = "^0.6.0"
 
 [tool.nonebot]
-plugins = ["nonebot_plugin_emojimix", "nonebot_plugin_remake", "nonebot_plugin_setu", "haruka_bot", "nonebot_plugin_code", "nonebot_plugin_chess", "nonebot_plugin_wordcloud"]
+plugins = ["nonebot_plugin_emojimix", "nonebot_plugin_remake", "nonebot_plugin_setu", "haruka_bot", "nonebot_plugin_code", "nonebot_plugin_chess", "nonebot_plugin_wordcloud", "nonebot_plugin_status", "nonebot_plugin_web", "nonebot_plugin_withdraw", "nonebot_plugin_petpet", "nonebot_plugin_memes", "nonebot_plugin_antiflash"]
 plugin_dirs = ["qqbot/plugins"]
 
 [build-system]

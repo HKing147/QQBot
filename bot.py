@@ -24,18 +24,24 @@ driver = nonebot.get_driver()
 driver.register_adapter(ONEBOT_V11Adapter)
 
 nonebot.load_builtin_plugins("echo")
-nonebot.load_plugin("nonebot_plugin_emojimix")
-nonebot.load_plugin("nonebot_plugin_remake")
-nonebot.load_plugin("nonebot_plugin_wordcloud")
+nonebot.load_plugin("nonebot_plugin_emojimix") # emoji合并
+nonebot.load_plugin("nonebot_plugin_remake") # 人生重开器remake
+nonebot.load_plugin("nonebot_plugin_wordcloud") # 词云
+nonebot.load_plugin("nonebot_plugin_status") # 服务器状态
+nonebot.load_plugin("nonebot_plugin_web") # 网页端监控机器人（可以监控到消息，但不能发送消息）// modify
+nonebot.load_plugin("nonebot_plugin_setu") # 涩图 // modify
+nonebot.load_plugin("nonebot_plugin_withdraw") # 机器人消息撤回
+nonebot.load_plugin("nonebot_plugin_petpet") # 表情包制作（摸头...）
+nonebot.load_plugin("nonebot_plugin_memes") # 表情包制作（狂粉...）
+nonebot.load_plugins("./qqbot/plugins") # 本地插件
+nonebot.load_plugin("nonebot_plugin_antiflash") # 群聊自动反闪照
+nonebot.load_plugin('random_cat_gif') # 随机猫猫 （pip安装）pip3 install random_cat_gif
 # nonebot.load_plugin("nonebot_plugin_code")
 # nonebot.load_plugin("nonebot_plugin_chess")
 # nonebot.load_plugin("haruka_bot")
-# nonebot.load_plugin("nonebot_plugin_setu")
 # nonebot.load_plugin("nonebot_plugin_code")
-# nonebot.load_plugin("nonebot_plugin_antiflash")
 # nonebot.load_plugin("nonebot_plugin_setu2")
 # nonebot.load_plugin("nonebot_plugin_setu")
-nonebot.load_plugins("./qqbot/plugins")
 # Please DO NOT modify this file unless you know what you are doing!
 # As an alternative, you should use command `nb` or modify `pyproject.toml` to load plugins
 # nonebot.load_from_toml("pyproject.toml")

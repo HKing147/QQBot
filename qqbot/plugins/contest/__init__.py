@@ -1,4 +1,4 @@
-from nonebot.plugin import on_keyword
+from nonebot.plugin import on_command
 from nonebot.adapters.onebot.v11 import Bot, Event
 from nonebot.adapters.onebot.v11.message import Message
 # import getcontest
@@ -25,7 +25,7 @@ def getcontest():
     return res
 
 
-contest = on_keyword(['contest', '比赛'], priority=1)
+contest = on_command('contest', priority=1)
 
 
 @contest.handle()
